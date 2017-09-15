@@ -1,0 +1,172 @@
+{
+	"pid": "cul:pvmcvdnd05",
+	"created": "2017-01-13T21:39:11Z",
+	"modified": "2017-01-13T22:17:34Z",
+	"created_by": "Admin User",
+	"modified_by": "Admin User",
+	"identifiers": [
+		"usem_2841",
+		"cul:pvmcvdnd05"
+	],
+	"title": "Announcements, 2008-04-09. Aging & Health: Policy, Practice, and Research, Seminar 695, 2007-2008",
+	"state": "A",
+	"dc_type": "InteractiveResource",
+	"project": {
+		"pid": "cul:8w9ghx3ftg",
+		"uri": "https:\/\/dlc.library.columbia.edu\/restricted\/universityseminars",
+		"display_label": "University Seminars Digital Archive",
+		"short_label": "University Seminars Digital Archive",
+		"string_key": "university_seminars"
+	},
+	"publish_targets": [
+		
+	],
+	"digital_object_type": {
+		"string_key": "item",
+		"display_label": "Item"
+	},
+	"dynamic_field_data": {
+		"collection": [
+			{
+				"collection_term": {
+					"uri": "http:\/\/id.library.columbia.edu\/term\/d0703c8d-ecb9-4a41-baf9-2ae87bdf1227",
+					"value": "University Seminars records",
+					"type": "local",
+					"authority": "local",
+					"vocabulary_string_key": "collection",
+					"internal_id": 195692
+				}
+			}
+		],
+		"date_created": [
+			{
+				"date_created_start_value": "2007",
+				"date_created_end_value": "2008"
+			}
+		],
+		"date_created_textual": [
+			{
+				"date_created_textual_value": "2007-2008"
+			}
+		],
+		"digital_origin": [
+			{
+				"digital_origin_value": "born digital"
+			}
+		],
+		"form": [
+			{
+				"form_term": {
+					"uri": "http:\/\/id.library.columbia.edu\/term\/6fd5d901-13cf-4db1-8660-9942592f6d1b",
+					"value": "announcements",
+					"type": "local",
+					"vocabulary_string_key": "form",
+					"internal_id": 363995
+				}
+			},
+			{
+				"form_term": {
+					"uri": "http:\/\/vocab.getty.edu\/aat\/300027425",
+					"value": "administrative records",
+					"type": "external",
+					"authority": "aat",
+					"vocabulary_string_key": "form",
+					"internal_id": 364173
+				}
+			}
+		],
+		"language": [
+			{
+				"language_term": {
+					"uri": "http:\/\/id.loc.gov\/vocabulary\/languages\/eng",
+					"value": "English",
+					"type": "external",
+					"authority": "iso639-2",
+					"vocabulary_string_key": "language",
+					"internal_id": 362874
+				}
+			}
+		],
+		"location": [
+			{
+				"location_term": {
+					"uri": "http:\/\/id.library.columbia.edu\/term\/d2142d01-deaa-4a39-8dbd-72c4f148353f",
+					"value": "Rare Book & Manuscript Library, Columbia University",
+					"type": "local",
+					"authority": "marcorg",
+					"vocabulary_string_key": "location",
+					"internal_id": 50,
+					"code": "NNC-RB"
+				}
+			}
+		],
+		"name": [
+			{
+				"name_usage_primary": true,
+				"name_term": {
+					"uri": "temp:6cce196d5b6be69ef00b825556fcee5fc087bd39d1de1ea7cc6fd7aef94e49df",
+					"value": "Seminar 695",
+					"type": "temporary",
+					"vocabulary_string_key": "name",
+					"internal_id": 369861
+				}
+			},
+			{
+				"name_term": {
+					"uri": "http:\/\/id.loc.gov\/authorities\/names\/n81132211",
+					"value": "Columbia University. University Seminars",
+					"type": "external",
+					"vocabulary_string_key": "name",
+					"internal_id": 364185,
+					"name_type": "corporate"
+				}
+			}
+		],
+		"place_of_origin": [
+			{
+				"place_of_origin_value": "New York"
+			}
+		],
+		"record_content_source": [
+			{
+				"record_content_source_value": "NNC"
+			}
+		],
+		"record_origin": [
+			{
+				"record_origin_value": "Created and edited in general conformance to MODS Guideline (Version 3)."
+			}
+		],
+		"type_of_resource": [
+			{
+				"type_of_resource_value": "text"
+			}
+		],
+		"subject_topic": [
+			{
+				"subject_topic_term": {
+					"uri": "temp:b7649dad5db29e11377d8523bdbd1f981183284d9f1d87f326392f992e0e670c",
+					"value": "Aging & Health: Policy, Practice, and Research",
+					"type": "temporary",
+					"authority": "local",
+					"vocabulary_string_key": "subject_topic",
+					"internal_id": 369862
+				}
+			}
+		],
+		"title": [
+			{
+				"title_sort_portion": "Announcements, 2008-04-09. Aging & Health: Policy, Practice, and Research, Seminar 695, 2007-2008"
+			}
+		]
+	},
+	"ordered_child_digital_objects": [
+		{
+			"pid": "ldpd:445678"
+		}
+	],
+	"parent_digital_objects": [
+		
+	],
+	"doi": null
+}
