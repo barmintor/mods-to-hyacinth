@@ -55,7 +55,7 @@
    <xsl:template name="project">
 "project": {
     "pid": "cul:8w9ghx3ftg",
-    "uri": "https:\/\/dlc.library.columbia.edu\/restricted\/universityseminars",
+    "uri": "https://dlc.library.columbia.edu/restricted/universityseminars",
     "display_label": "University Seminars Digital Archive",
     "short_label": "University Seminars Digital Archive",
     "string_key": "university_seminars"
@@ -101,7 +101,7 @@
     "collection": [
         {
             "collection_term": {
-                "uri": "http:\/\/id.library.columbia.edu\/term\/d0703c8d-ecb9-4a41-baf9-2ae87bdf1227",
+                "uri": "http://id.library.columbia.edu/term/d0703c8d-ecb9-4a41-baf9-2ae87bdf1227",
                 "value": "University Seminars records",
                 "type": "local",
                 "authority": "local",
@@ -139,7 +139,7 @@
         </xsl:for-each>
         {
             "form_term": {
-                "uri": "http:\/\/vocab.getty.edu\/aat\/300027425",
+                "uri": "http://vocab.getty.edu/aat/300027425",
                 "value": "administrative records",
                 "type": "external",
                 "authority": "aat",
@@ -152,7 +152,7 @@
     "language": [
             {
                 "language_term": {
-                    "uri": "http:\/\/id.loc.gov\/vocabulary\/languages\/eng",
+                    "uri": "http://id.loc.gov/vocabulary/languages/eng",
                     "value": "English",
                     "type": "external",
                     "authority": "iso639-2",
@@ -166,7 +166,7 @@
     "location": [
             {
                 "location_term": {
-                    "uri": "http:\/\/id.library.columbia.edu\/term\/d2142d01-deaa-4a39-8dbd-72c4f148353f",
+                    "uri": "http://id.library.columbia.edu/term/d2142d01-deaa-4a39-8dbd-72c4f148353f",
                     "value": "Rare Book & Manuscript Library, Columbia University",
                     "type": "local",
                     "authority": "marcorg",
@@ -186,7 +186,7 @@
         </xsl:for-each>
         {
             "name_term": {
-                "uri": "http:\/\/id.loc.gov\/authorities\/names\/n81132211",
+                "uri": "http://id.loc.gov/authorities/names/n81132211",
                 "value": "Columbia University. University Seminars",
                 "type": "external",
                 "vocabulary_string_key": "name",
