@@ -3,14 +3,15 @@ require 'json'
 path = ARGV[1]
 HYACINTH = "https://hyacinth.library.columbia.edu/functions#"
 class HyacinthFunctions
-  def lookup(vocabulary, authority, node)
-    uri = {
-      uri: "http://example.org/uri-service-lookup/#{vocabulary}/#{authority}",
-      authority: authority,
-      vocabulary_string_key: vocabulary,
-      value: node.text
+  def lookup(node, *args)
+    assoc = args.each_slice(2).to_h
+    auth_or_type = assoc.fetch('authority', assoc['type'])
+    dummy = {
+      value: node.text.strip,
+      uri: "http://example.org/uri-service-lookup/#{assoc['vocabulary_string_key']}/#{auth_or_type}",
     }
-    JSON.pretty_generate(uri)
+    assoc.merge! dummy
+    JSON.pretty_generate(assoc)
   end
 end
 

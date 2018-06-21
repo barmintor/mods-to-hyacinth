@@ -62,7 +62,7 @@
 }</xsl:template>
    <xsl:template name="publish-targets">
 "publish_targets": [
-    
+        {"pid":"cul:s7h44j0zxt","display_label":"University Seminars [Restricted]","string_key":"university_seminars_restricted"}
 ]</xsl:template>
    <xsl:template name="digital-object-type">
 "digital_object_type": {
@@ -134,7 +134,7 @@
     "form":[
         <xsl:for-each select="/mods:mods/mods:physicalDescription/mods:form[@authority='local']">
         {
-            "form_term": <xsl:value-of select="hy:lookup('form',@authority, current())" />
+            "form_term": <xsl:value-of select="hy:lookup(current(), 'vocabulary_string_key','form','type',@authority)" />
         },
         </xsl:for-each>
         {
@@ -181,7 +181,7 @@
         <xsl:for-each select="/mods:mods/mods:name[@usage='primary']/mods:nameTerm[not(text() = '')]">
         {
             "name_usage_primary": true,
-            "name_term": <xsl:value-of select="hy:lookup('name','local',current())" />
+            "name_term": <xsl:value-of select="hy:lookup(current(), 'vocabulary_string_key', 'name','type', 'temporary')" />
         },
         </xsl:for-each>
         {
@@ -228,7 +228,7 @@
     <xsl:for-each select="/mods:mods/mods:subject[mods:topic/text()]">
         <xsl:variable name="authority" select="@authority" />
         {
-        "subject_topic_term": <xsl:value-of select="hy:lookup($vocabulary, $authority, current())" />
+        "subject_topic_term": <xsl:value-of select="hy:lookup(current(), 'vocabulary_string_key', $vocabulary, 'type', 'temporary')" />
         }
             <xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
     </xsl:for-each>
